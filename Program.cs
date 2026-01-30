@@ -107,7 +107,6 @@
         while(true) {
             Direction[] PossibleDirections = GetPossibleDirections(Pos, false);
 
-            //Console.WriteLine($"[ {Pos.X}, {Pos.Y} {History.Count()} ]");
             if(!PossibleDirections.Any()) {
                 if(!History.Any()) {
                     break;
